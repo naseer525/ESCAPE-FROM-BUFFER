@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+    <PropertyGroup>
+      <OutputType>WinExe</OutputType>
+      <TargetFramework>net472</TargetFramework>
+      <UseWindowsForms>true</UseWindowsForms>
+      <RootNamespace>EscapeFromBuffer</RootNamespace>
+      <AssemblyName>EscapeFromBuffer</AssemblyName>
+      <AssemblyTitle>Escape From Buffer</AssemblyTitle>
+      <LangVersion>8.0</LangVersion>
+      <Nullable>enable</Nullable>
+      <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+      <PlatformTarget>AnyCPU</PlatformTarget>
+      <Optimize>true</Optimize>
+    </PropertyGroup>
+    <ItemGroup>
+      <Reference Include="System" />
+      <Reference Include="System.Core" />
+      <Reference Include="System.Drawing" />
+      <Reference Include="System.Windows.Forms" />
+    </ItemGroup>
+  </Project>
